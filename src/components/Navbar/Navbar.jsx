@@ -15,7 +15,7 @@ const Navbar = ({ setShowLogin }) => {
       </Link>
       <ul className="navbar-menu">
         <Link
-          to="/food-delivery-app/"
+          to="/"
           onClick={() => setMenu("home")}
           className={menu === "home" ? "active" : ""}
         >
@@ -46,7 +46,7 @@ const Navbar = ({ setShowLogin }) => {
       <div className="narbar-right">
         <img src={assets.search_icon} alt="Search Icon" />
         <div className="navbar-search-icon">
-          <Link to="/food-delivery-app/cart">
+          <Link to="/cart">
             <img src={assets.basket_icon} alt="Basket Icon" />
           </Link>
           <div className={getTotalCartAmount() === 0 ? "" : "dot"}></div>
