@@ -1,6 +1,6 @@
 # food-delivery-app
 
-[Live Demo](https://hasithaprageeth.github.io/food-delivery-app/)
+[Live Demo](https://hp-food-delivery.netlify.app/)
 
 ![Food Delivery Website Screenshot 1 ](./assets/screenshot1.png)
 
